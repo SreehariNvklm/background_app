@@ -32,11 +32,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  static const List<String> quotes = [
-    'You only live once, live it',
-    'Powerful people make places powerful'
-  ];
-  String quote = quotes.first;
   @override
   void initState() {
     super.initState();
